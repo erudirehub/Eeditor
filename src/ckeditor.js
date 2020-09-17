@@ -8,16 +8,16 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 import DecoupledEditorBase from '@ckeditor/ckeditor5-editor-classic/src/decouplededitor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-import AutoLink from "../custom_plugins/autolink/autolink";
+import AutoLink from '../custom_plugins/autolink/autolink';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import BlockQuoteStyle from "@ckeditor/ckeditor5-block-quote/src/blockquotestyle";
-import BlockQuoteToolbar from "@ckeditor/ckeditor5-block-quote/src/blockquotestyle/blockquotetoolbar";
+import BlockQuoteStyle from '@ckeditor/ckeditor5-block-quote/src/blockquotestyle';
+import BlockQuoteToolbar from '@ckeditor/ckeditor5-block-quote/src/blockquotestyle/blockquotetoolbar';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import HeadingButtonsUI from "@ckeditor/ckeditor5-heading/src/headingbuttonsui";
+import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -38,11 +38,11 @@ import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
-import MathBlock from "../custom_plugins/ckeditor5-math-block/src/mathblock";
-import MathEquationPreview from "../custom_plugins/ckeditor5-math-block/src/mathequationpreview";
+import MathBlock from '../custom_plugins/ckeditor5-math-block/src/mathblock';
+import MathEquationPreview from '../custom_plugins/ckeditor5-math-block/src/mathequationpreview';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
-import CustomAttributeSaver from "../custom_plugins/custom-attribute-saver";
+import CustomAttributeSaver from '../custom_plugins/custom-attribute-saver';
 
 class ClassicEditor extends ClassicEditorBase {}
 class CommentEditor extends DecoupledEditorBase {}
@@ -114,13 +114,13 @@ ClassicEditor.defaultConfig = {
 			'mathBlock',
 			'|',
 			'undo',
-			'redo',
+			'redo'
 		]
 	},
 	heading: {
 		options: [
-			{model: 'heading1', view: 'h2', title: 'Main heading', class: 'ck-heading_heading1'},
-			{model: 'heading2', view: 'h3', title: 'Sub heading', class: 'ck-heading_heading2'},
+			{ model: 'heading1', view: 'h2', title: 'Main heading', class: 'ck-heading_heading1' },
+			{ model: 'heading2', view: 'h3', title: 'Sub heading', class: 'ck-heading_heading2' }
 		]
 	},
 	image: {

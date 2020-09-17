@@ -1,0 +1,13 @@
+
+.math-block {
+	padding: 10px !important;
+}
+
+.math-equation {
+	display: block !important;
+	width: unset !important;
+	margin: 0 !important;
+	background: unset !important;
+	padding: 10px !important;
+	border-radius: 0 !important;
+}
